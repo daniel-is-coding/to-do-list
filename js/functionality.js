@@ -87,7 +87,7 @@ const renderListOfTasks = () => {
         dateElement.innerText = task.dueDate;
 
 
-        // Eliminar tarea
+        // Eliminar tareas locas
         const buttonElement = document.createElement('button');
         buttonElement.innerText = 'ELIMINAR'
         buttonElement.className = 'delete-button'
